@@ -1,0 +1,67 @@
+body{
+  background-image: url(../images/fondo.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.logo{
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.resume-box{
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 12px -4px #333;
+}
+.main__title{
+  font-family: 'Titillium Web', sans-serif;
+}
+.table-th{
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #FFC891;
+  padding: 5px 15px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #fff;
+  text-shadow: 0 0 10px #d6720e;
+}
+.header{
+  position: relative;
+  width: 100%;
+}
+.main__icon{
+  position: absolute;
+  right: 1rem;
+  top: 0;
+}
+.main__icon a{
+  transition: all .2s;
+}
+.main__icon img{
+  width: 80px;
+  height: 80px;
+  transition: all .7s;
+  position: relative;
+  z-index: 9999;
+}
+.main__icon a:hover img{
+  transform: rotateY(360deg);
+}
+.main__icon .view-graph{
+  font-family: 'Titillium Web', sans-serif;
+  transition: all .7s;
+  position: absolute;
+  width: 150px;
+  color: #000;
+  top: 30px;
+  left: -2.5rem;
+  opacity: 0;
+}
+.main__icon a:hover .view-graph{
+  opacity: 1;
+  left: -5.5rem;
+}

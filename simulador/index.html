@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simulador de crédito</title>
+    <!--Gloogle fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,500,700&display=swap" rel="stylesheet">
+
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--Custom css --->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Scrol Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+
+
+    </style>
+
+
+  </head>
+  <body class="bg__blue">
+
+    <div class="container h-100">
+      <div class="row h-100 py-5 my-5 align-items-center">
+        <div class="col-12 col-lg-6">
+          <figure class="mb-0">
+            <img src="images/logo-comparacredi.png" class="w-75" alt="">
+          </figure>
+        </div>
+        <div class="col-12 col-lg-6">
+          <form action="../comparador/src/index.html" class="form__simular">
+            <h1 class="main__title text-center py-3">Simulador de Crédito</h1>
+            <div class="form-group mb-4">
+              <select class="form-control form__select-amount">
+                <option value="1000000">$1.000.000</option>
+                <option value="2000000">$2.000.000</option>
+                <option value="3000000">$3.000.000</option>
+                <option value="4000000">$4.000.000</option>
+                <option value="5000000">$5.000.000</option>
+                <option value="6000000">$6.000.000</option>
+                <option value="7000000">$7.000.000</option>
+                <option value="8000000">$8.000.000</option>
+                <option value="9000000">$9.000.000</option>
+                <option value="10000000">$10.000.000</option>
+              </select>
+            </div>
+            <div class="form-group mb-4">
+              <select class="form-control form__select-payment">
+                <option value="12">12 Cuotas</option>
+                <option value="24">24 Cuotas</option>
+                <option value="36">36 Cuotas</option>
+                <option value="48">48 Cuotas</option>
+                <option value="60">60 Cuotas</option>
+              </select>
+            </div>
+            <div class="form-group mb-4">
+              <p class="form_paragraph text-white">Escriba el monto redondeado (ej: 300.000 - 400.000 - 500.000)</p>
+              <input type="text" class="form-control form__input-monthly-income" placeholder="Ingreso mensual">
+            </div>
+            <div class="form-group mb-4">
+              <input type="checkbox" class="form__input-checkbox"> <span>Seguro desgravamen</span>
+            </div>
+            <div class="form__button-box">
+              <button type="submit" class="btn btn-primary w-100 form__button">Simular</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!---Boostrap scripts---->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
