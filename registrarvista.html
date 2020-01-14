@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
@@ -10,9 +10,12 @@
 
 </head>
 <body>
- <form class="formulario">
+	<h1 align="center">
+ 	 	<img src="logo-comparacredi.png" alt="">
+ </h1>
+<form class="formulario">
 
-    <h1>Registrate</h1>
+    <h2 align="center">Registrate</h2>
      <div class="contenedor">
 
      <div class="input-contenedor">
@@ -51,10 +54,18 @@
          <input type="password" placeholder="Contraseña">
 
          </div>
-         <input type="submit" value="Registrate" class="button">
+  		   <input id="register" class="button" value="Regístrate">
          <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
          <p>¿Ya tienes una cuenta?<a class="link" href="index.html">Iniciar Sesion</a></p>
      </div>
     </form>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript">
+					document.getElementById("register").onclick=function(){
+            	alert("Registro Exitoso");
+              document.location.href = "simulador/index.html";
+           };
+		</script>
 </body>
 </html>

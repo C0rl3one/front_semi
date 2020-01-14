@@ -54,6 +54,7 @@ input[type="password"]{
     padding: 15px 20px;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
 }
 .button:hover{
     background: cadetblue;

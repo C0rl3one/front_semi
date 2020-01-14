@@ -90,7 +90,7 @@ body {
      text-decoration: none;                <!-----le quito la decoracion por defecto----->
      font-size: 12px;                       <!-----tamaño del texto----->
      line-height: 20px;                     <!-----linea de espaciado----->
-     color: darkgray;
+     color: #333;
 }
 
 .login-box a:hover{

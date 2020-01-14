@@ -11,36 +11,47 @@
 
 </head>
 <body>
+	<h1 align="center">
+ 	 	<img src="logo-comparacredi.png" alt="">
+ </h1>
     <form class="formulario">
 
-    <h1>Recuperación de contraseña</h1>
+    <h2 align="center">Recuperación de contraseña</h2>
      <div class="contenedor">
 
 
 
          <div class="input-contenedor">
          <i class="fas fa-user icon"></i>
-         <input type="text" placeholder="Correo electronico">
+         <input type="text" placeholder="Correo electrónico">
 
          </div>
 
           <div class="input-contenedor">
         <i class="fas fa-key icon"></i>
-         <input type="password" placeholder="ingrese nueva Contrase�a">
-         
+         <input type="password" placeholder="Ingrese nueva contraseña">
+
          </div>
 
         <div class="input-contenedor">
         <i class="fas fa-key icon"></i>
-         <input type="password" placeholder=" repita Contrase�a">
+         <input type="password" placeholder="Repita contraseña">
 
          </div>
 
-         <input type="submit" value="Enviar" class="button">
-         <p>Al registrarte, aceptas nuestras Condiciones de uso y Pol�tica de privacidad.</p>
-         <p>�No tienes una cuenta? <a class="link" href="registrarvista.html">Reg�strate </a></p>
+         <input id="recoverypass" value="Enviar" class="button">
+         <p>Al registrarte, aceptas nuestras condiciones de uso y política de privacidad.</p>
+         <p>¿No tienes una cuenta? <a class="link" href="registrarvista.html">Regístrate </a></p>
 
      </div>
     </form>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript">
+					document.getElementById("recoverypass").onclick=function(){
+            	alert("Su contraseña a sido actualizada exitosamente!");
+              document.location.href = "index.html";
+           };
+		</script>
 </body>
 </html>
